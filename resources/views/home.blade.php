@@ -108,7 +108,6 @@ function addRow() {
         <td><input type="number" class="form-control" placeholder="Rate" oninput="calculatePrice(this)"></td>
         <td><input type="number" class="form-control" placeholder="Quantity" oninput="calculatePrice(this)"></td>
         <td><input type="number" class="form-control" placeholder="Price" readonly></td>
-        <td><button type="button" class="btn btn-danger" onclick="removeRow(this)">Remove</button></td>
     </tr>`;
     document.getElementById('item_rows').insertAdjacentHTML('beforeend', row);
 }
